@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+h6{
+    font-size: 18px;
+    line-height:24px;
+    color: #fff;
+}
+li{
+    list-style: none;
+}
+/* Header */
+#header {
+    display:flex;
+    justify-content: space-around;
+    height:70px;
+    background: rgba(7, 28, 51, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#header img {
+    margin: 8px 0;
+}
+.logo-img{
+    width: 84px;
+    height: 53px;
+}
+
+
+#navbar li {
+    display:inline-block;
+}
+
+#navbar li a{
+    display: inline-block;
+    padding: 0 30px;
+    line-height: 70px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+#navbar li:hover a{
+    color: #fcb85d;
+}
+
+#parallax{
+    position: relative;
+    padding-top:50%;
+    background: url(../asset/home-parallax.jpg) top / cover no-repeat;
+}
+#parallax .content-container{
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+#parallax .content-heading{
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+#parallax .content-text{
+    font-size: 15px;
+}
+#skills,
+#objective{
+    width: 100%;
+}
+
+#skills .skills-heading,
+#objective .objective-heading{
+    padding-top: 5%;
+    text-align: center;
+}
+
+#skills .skills-heading>h2,
+#objective .objective-heading>h2{
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+h2>hr{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width:70px;
+    height: 2px;
+    border: none;
+    background-color: #fcb85d
+}
+
+#objective .objective-content{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2.5%;
+}
+
+h4>hr{
+    width: 70px;
+    margin: 15px 0;
+    height: 2px;
+    border: none;
+    background-color: #fcb85d
+}
+.skills-title,
+#objective .term>h4{
+    text-align: left;
+    color: #34495e;
+    font-size: 23px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.skills-description,
+#objective .term>p{
+    text-align: left;
+    font-size:15px;
+    font-weight: 400;
+    line-height: calc(5/3);
+    color: #888a8c;
+    font-family: 'Raleway', sans-serif;
+}
+.soft-skill,
+.hard-skill{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2.5%;
+}
+.soft-skill{
+    padding-bottom:2.5%;
+}
+
+.skill-left{ 
+    width: 333px;
+}
+
+.skill-right{ 
+    width:505px;
+}
+
+.skills-source-control .skills-description>a{
+    text-decoration: none;
+    color: #fcb85d;
+}
+
+#bottom{
+    background:#071c33;
+    bottom:0;
+}
+.bottom-container{
+    padding: 70px 0;
+    display:flex;
+    justify-content:space-around
+}
+.contact-container,dt,dd{
+    display: inline-block;
+    color: #fff;
+}
+.bottom-nav>a{
+    text-decoration:none;
+}

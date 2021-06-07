@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    display:flex;
+    justify-content: space-around;
+    height:70px;
+    background:#071C33;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#header img{
+    margin: 8px 0;
+    width: 84px;
+    height: 53px;
+    float: left;
+    line-height:70px;
+}
+
+#navbar li {
+    list-style: none;
+    line-height: 70px;
+    display:inline-block;
+}
+
+#navbar li a{
+    display: inline-block;
+    padding: 0 30px;
+    line-height: 70px;
+    text-decoration: none;
+    color: #fff;
+}
+#navbar li:hover a{
+    background-color: #fcb85d;
+    color: #071C33;
+}
+
+.banner{
+    background-image: url(/asset/home-parallax.jpg);
+    background-size:contain;
+}
